@@ -16,9 +16,7 @@ public class gen
 			display_num(number);
 		    }
 		number[i] = 0;
-	    }
-	
-	
+	    }	
     }
 
     public static void init_num(int number[])
@@ -37,6 +35,5 @@ public class gen
 	while (++i < number.length)
 	    System.out.print(number[i]);
 	System.out.println("");
-	
     }
 }
